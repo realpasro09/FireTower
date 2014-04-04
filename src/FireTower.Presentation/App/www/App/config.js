@@ -47,7 +47,7 @@ angular.module('firetower', ['ionic', 'google-maps'])
             controller: 'LoginController'
         });
 
-    var myAppId = '294203754077185';
+    var myAppId = '1480485962163246';
     
     var isMobile = {
         Android: function () {
@@ -72,9 +72,10 @@ angular.module('firetower', ['ionic', 'google-maps'])
 
     
     
-    if (isMobile.any()) {
-        FB.init({ appId: myAppId, nativeInterface: CDV.FB, useCachedDialogs: false });
-    } else {
-        FB.init({ appId: myAppId});
-    }
+    //if (isMobile.any()) {
+    //    FB.init({ appId: myAppId, nativeInterface: CDV.FB, useCachedDialogs: false });
+    //} else {
+    //    FB.init({appId: myAppId, status: true,xfbml: true
+    //    });
+    //}    
 }]);

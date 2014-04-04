@@ -116,6 +116,7 @@
     <Content Include="App\www\App\controller\reportes.js" />
     <Content Include="App\www\App\js\angular\angular-route.js" />
     <Content Include="App\www\App\js\angular\angular.js" />
+    <Content Include="App\www\App\js\FacebookConnect.js" />
     <Content Include="App\www\App\js\require.js" />
     <Content Include="App\www\App\services\math.js" />
     <Content Include="App\www\App\js\cordova-2.0.0.js" />
@@ -272,7 +273,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63025</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:38397/</IISUrl>
+          <IISUrl>https://localhost:44300/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
